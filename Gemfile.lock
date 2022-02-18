@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    catpix (0.2.0)
+      docopt (~> 0.5, >= 0.5.0)
+      rmagick (~> 2.15, >= 2.15.2)
+      ruby-terminfo (~> 0.1, >= 0.1.1)
+      tco (~> 0.1, >= 0.1.8)
+    docopt (0.6.1)
+    rmagick (2.16.0)
+    ruby-terminfo (0.1.1)
+    tco (0.1.8)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  catpix
+  rmagick
+  ruby-terminfo
+
+BUNDLED WITH
+   2.3.7
