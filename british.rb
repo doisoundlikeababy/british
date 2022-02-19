@@ -2,8 +2,12 @@ require 'net/http'
 require 'catpix'
 require 'json'
 
+puts "how many british people do you want to print"
+
 url = URI('https://randomuser.me/api/?nat=gb%27')
-100.times {
+times = gets.chomp.to_i
+
+times.times {
   person = Net::HTTP.get url
   results = JSON.parse person
 
